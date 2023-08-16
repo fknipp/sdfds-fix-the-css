@@ -1,0 +1,7 @@
+.wizard-progress {
+  position: fixed;
+  font-size: 200%;
+  bottom: 0;
+  right: 0;
+  font-family: sans-serif;
+}
