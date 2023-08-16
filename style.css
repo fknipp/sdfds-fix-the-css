@@ -9,6 +9,9 @@ h1, h2 {
 
 main {
   margin: 2em;
+}
+
+main p {
   text-align: justify;
 }
 
