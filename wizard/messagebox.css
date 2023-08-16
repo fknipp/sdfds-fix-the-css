@@ -6,7 +6,7 @@
   max-width: 60ex;
   min-height: 3em;
   padding: 0.5em 0.5em 0.5em 4em;
-  background-color: rgb(238, 174, 219);
+  background-color: rgb(253, 149, 222);
   border-radius: 0.5em;
   font-family: sans-serif;
 }
@@ -15,6 +15,10 @@
   position: absolute;
   left: 0.25em;
   font-size: 200%;
+  background: url("/assets/Cassie\ profile.png") top/contain no-repeat;
+  color: transparent;
+  width: 1.5em;
+  height: 2em;
 }
 
 .wizard-messagebox .close {
