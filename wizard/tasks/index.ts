@@ -1,5 +1,6 @@
-import t01_authorname from "./t01_authorname.js";
-import t99_final from "./t99_final.js";
+import t01_authorname from "./t01_authorname.ts";
+import t10_stylesheet from "./t10_stylesheet.ts";
+import t99_final from "./t99_final.ts";
 
 export interface task {
   condition: (d: Document) => boolean;
@@ -9,6 +10,7 @@ export interface task {
 
 const tasks: task[] = [
   t01_authorname,
+  t10_stylesheet,
   t99_final
 ];
 
