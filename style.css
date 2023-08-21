@@ -1,10 +1,10 @@
+/*
+ * This is the stylesheet of my homepage
+*/
+
 body {
   margin: 0;
   font-family: serif;
-}
-
-h1, h2 {
-  font-family: cursive;
 }
 
 main {
@@ -15,19 +15,16 @@ main p {
   text-align: justify;
 }
 
-.intro {
-  font-weight: bold;
-}
-
 #about {
+  display: none;
   float: right;
   box-sizing: border-box;
-  width: 20em;
+  width: 30em;
   max-width: calc(100% - 2em);
-  margin: 0 1em .5em;
+  margin: 0 1em 0.5em;
   padding: 0 1em;
   border: 1px solid #f329d8;
-  background-color: rgb(242, 211, 248);
+  background-color: rgb(242,211,248);
 }
 
 #about img {
@@ -40,7 +37,7 @@ main p {
 
 #about li::marker {
   content: "∗ ";
-  color:#f329d8;
+  color: #f329d8;
 }
 
 footer {
