@@ -12,7 +12,7 @@ export default {
       <p>I'm so glad that you're here.</p>
       <p>My web page has lost its styles. I've already prepared some of them, but they are missing now.</p>
       <p>Please help me. Look for a file with the ending <b>CSS</b>, it must be near this file.</p>
-      <p>Once, you've found it, it should be integrated as <b>stylesheet</b> right into the <b>head</b> of <em>index.html</em>.
+      <p>Once, you've found it, it should be integrated as <b>stylesheet</b> right into the <b>head</b> of <em>index.html</em></p>.
       `,
     });
   },
