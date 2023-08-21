@@ -8,6 +8,8 @@ import t33_intro_fontWeight from "./t33_intro_font-weight.ts";
 import t40_about_display from "./t40_about_display.ts";
 import t41_about_width from "./t41_about_width.ts";
 import t42_about_background_border from "./t42_about_background_border.ts";
+import t50_h1h2_fontFamily from "./t50_h1h2_font-family.ts";
+import t51_h1h2_fontFamily_not_body from "./t51_h1h2_font-family_not_body.ts";
 import t99_final from "./t99_final.ts";
 
 export interface task {
@@ -27,6 +29,8 @@ const tasks: task[] = [
   t40_about_display,
   t41_about_width,
   t42_about_background_border,
+  t50_h1h2_fontFamily,
+  t51_h1h2_fontFamily_not_body,
   t99_final
 ];
 
