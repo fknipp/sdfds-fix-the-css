@@ -8,7 +8,7 @@ export default {
     messagebox({
       html: `
       <p>Well. You've set the class on an element, but check again, if it was the right paragraph.</p>
-      <p>It should be a <b>p</b> element right after an <b>h1</b> element.
+      <p>It should be a <b>p</b> element right after an <b>h1</b> element.</p>
       `,
     });
   }
