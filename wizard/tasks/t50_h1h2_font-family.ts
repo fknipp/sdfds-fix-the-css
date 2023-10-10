@@ -3,8 +3,8 @@ import { task } from "./index.ts";
 
 export default {
   condition: (d) =>
-    window.getComputedStyle(d.querySelector("h1")).getPropertyValue("font-family") === 'cursive' &&
-    window.getComputedStyle(d.querySelector("h2")).getPropertyValue("font-family") === 'cursive',
+    window.getComputedStyle(d.querySelector("h1") as Element).getPropertyValue("font-family") === 'cursive' &&
+    window.getComputedStyle(d.querySelector("h2") as Element).getPropertyValue("font-family") === 'cursive',
   showMessage() {
     messagebox({
       html: `

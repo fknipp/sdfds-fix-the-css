@@ -3,8 +3,8 @@ import { task } from "./index.ts";
 
 export default {
   condition: (d) =>
-  window.getComputedStyle(d.querySelector("#about")).getPropertyValue("background-color") !== 'rgb(242, 211, 248)' && 
-  window.getComputedStyle(d.querySelector("#about")).getPropertyValue("border-color") !== 'rgb(243, 41, 216)',
+  window.getComputedStyle(d.querySelector("#about") as Element).getPropertyValue("background-color") !== 'rgb(242, 211, 248)' && 
+  window.getComputedStyle(d.querySelector("#about") as Element).getPropertyValue("border-color") !== 'rgb(243, 41, 216)',
   showMessage() {
     messagebox({
       html: `
